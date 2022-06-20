@@ -1,0 +1,129 @@
+ion-header ion-icon {
+  font-size: 30px;
+  position: relative;
+  margin-right: 10px;
+}
+ion-header #notifications-badge-msg {
+  background-color: #4307e9;
+  position: absolute;
+  top: 5px;
+  right: 95px;
+  color: #fff;
+  z-index: 111;
+}
+ion-header #notifications-badge {
+  background-color: #4307e9;
+  position: absolute;
+  top: 5px;
+  right: 50px;
+  color: #fff;
+  z-index: 111;
+}
+ion-header img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+ion-content {
+  --background: #f0f0f2;
+}
+ion-content .top {
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+ion-content .top ion-segment {
+  margin-top: 10px;
+  border: 1px solid #f15b3a;
+}
+ion-content .top ion-segment ion-segment-button {
+  --background-checked:#f15b3a;
+  --color-checked: #fff;
+  --indicator-color: #f15b3a;
+  font-size: 18px;
+  --color: #f15b3a;
+}
+ion-content #date {
+  padding-left: 20px;
+}
+ion-content .upperBox {
+  background-color: #fff;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 40% 35% 15% 10%;
+  grid-template-rows: 15% 35% 35% 15%;
+  gap: 5px 5px;
+  grid-template-areas: "image title title menu" "image orderId orderId orderId" "image amount status status" "image time edit edit";
+}
+ion-content .upperBox .image {
+  grid-area: image;
+}
+ion-content .upperBox .image img {
+  padding: 10px;
+  border-radius: 5px;
+  height: auto;
+  width: 100%;
+}
+ion-content .upperBox .title {
+  grid-area: title;
+  color: #f15b3a;
+}
+ion-content .upperBox .title h3 {
+  font-size: 16px;
+}
+ion-content .upperBox .menu {
+  grid-area: menu;
+  margin-right: 10px;
+  justify-self: center;
+}
+ion-content .upperBox .orderId {
+  grid-area: orderId;
+}
+ion-content .upperBox .orderId p {
+  color: gray;
+}
+ion-content .upperBox .amount {
+  grid-area: amount;
+  align-self: start;
+  justify-self: start;
+  margin-top: -25px;
+}
+ion-content .upperBox .status {
+  grid-area: status;
+}
+ion-content .upperBox .status p {
+  margin-right: 20px;
+  margin-top: -8px;
+  font-size: 12px;
+  background: #e4f4eb;
+  padding: 5px;
+  text-align: center;
+  color: green;
+}
+ion-content .upperBox .time {
+  grid-area: time;
+}
+ion-content .upperBox .time p {
+  margin-top: -30px;
+}
+ion-content .upperBox .edit {
+  grid-area: edit;
+  margin-top: -30px;
+}
+ion-content .upperBox .edit .btn {
+  font-size: 18px;
+  background: #f15b3a;
+  padding: 5px;
+  text-align: center;
+  color: #FFF;
+}

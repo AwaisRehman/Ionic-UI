@@ -1,0 +1,96 @@
+ion-content {
+  --background: #ffb000;
+  min-height: 100%;
+}
+ion-content .upper {
+  width: 100%;
+  height: 30%;
+  padding-top: 50px;
+}
+ion-content .upper .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ion-content .upper .icon ion-icon {
+  font-size: 100px;
+  color: #fff;
+}
+ion-content .upper #login {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+}
+ion-content .middle {
+  padding: 20px;
+}
+ion-content .middle .box {
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+}
+ion-content .middle .box p {
+  color: gray;
+  text-align: center;
+}
+ion-content .middle .box ion-item ion-icon {
+  color: #ff7300;
+}
+ion-content .middle .box #forgetPassword {
+  font-size: 14px;
+  color: #ff7300;
+  text-align: end;
+}
+ion-content .middle .box .btn {
+  display: flex;
+  justify-content: center;
+}
+ion-content .middle .box .btn ion-button {
+  --background: #ff7300;
+}
+ion-content .middle .box #media {
+  color: black;
+}
+ion-content .middle .box .socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ion-content .middle .box .socialMedia ion-icon {
+  padding-right: 15px;
+  font-size: 28px;
+}
+ion-content .middle .box .socialMedia ion-icon:nth-child(1) {
+  color: #4267B2;
+}
+ion-content .middle .box .socialMedia ion-icon:nth-child(2) {
+  color: #1DA1F2;
+}
+ion-content .middle .box .socialMedia ion-icon:nth-child(3) {
+  color: #DB4437;
+}
+ion-content .middle .box .touchLogin, ion-content .middle .box .faceLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+ion-content .middle .box .touchLogin ion-icon, ion-content .middle .box .faceLogin ion-icon {
+  font-size: 20px;
+  margin-right: 5px;
+  color: red;
+}
+ion-content .navigator {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+ion-content .navigator p {
+  color: #fff;
+}
